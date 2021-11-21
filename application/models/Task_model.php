@@ -43,6 +43,7 @@ class Task_model extends CI_Model{
         $pro="CALL Get_emp()";
         return $this->db->query($pro)->result_array();
     }
+    
     public function delete_record($id){
         $sql="delete from employee where Eid='$id'";
         $this->db->query($sql);

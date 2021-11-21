@@ -90,24 +90,7 @@
                         <strong class="card-title">Employee Records</strong>
                     </div>
                     <div class="card-body">
-                        <table id="data-tbl" class="table table-striped table-bordered data-tbl">
-                            <thead>
-                                <tr>
-                                    <th>Employee Name</th>
-                                    <th>Employee Email</th>
-                                    <th>Employee DOB</th>
-                                    <th>Employee Salary</th>
-                                    <th>Employee Qualification</th>
-                                    <th>Employee Experience</th>
-                                    <th>Certifications</th>
-                                    <th>Edit</th>
-                                    <th>Delete</th>
-                                </tr>
-                            </thead>
-                            <tbody id="data-table">                            
-
-                            </tbody>
-                        </table>
+                       
                     </div>
                 </div>
 

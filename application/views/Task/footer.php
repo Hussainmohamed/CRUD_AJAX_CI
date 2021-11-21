@@ -21,18 +21,7 @@
    
   
 
-<script>
-    $(document).ready(function() {
-    $('#data-tbl').DataTable({
-        dom: 'Bfrtip',
-        buttons: [
-            'excel', 'pdf'
-        ]
-       
-    });
-});
 
-</script>
 </body>
 
 </html>

@@ -58,7 +58,7 @@ class Task extends CI_Controller {
           
               $_FILES['img']['tmp_name']=$_FILES['files']['tmp_name'][$i];  
               $config['upload_path']="./assets/images/";
-              $config['allowed_types']="jpg|png|jpeg";
+              $config['allowed_types']="jpg|png|jpeg|doc|docx|xlsx|pdf";
               $this->load->library('upload',$config);   
               $this->upload->initialize($config);
               if($this->upload->do_upload('img')){
@@ -95,7 +95,7 @@ class Task extends CI_Controller {
           
               $_FILES['img']['tmp_name']=$_FILES['files']['tmp_name'][$i];  
               $config['upload_path']="./assets/images/";
-              $config['allowed_types']="jpg|png|jpeg";
+              $config['allowed_types']="jpg|png|jpeg|doc|docx|xlsx|pdf";
               $this->load->library('upload',$config);   
               $this->upload->initialize($config);
               if($this->upload->do_upload('img')){
